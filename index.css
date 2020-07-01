@@ -2,8 +2,11 @@
     body{
         margin: 0;
         padding: 0;
+       
     }
-
+    p{
+     color: gray;
+ }
     #color{
         color:rgb(255, 0, 200);
         font-weight: bold;
@@ -15,6 +18,7 @@
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
+    border-radius: 10px;
   
 
    }
@@ -26,6 +30,7 @@
     }
   .half-width img{
       width: 40%;
+     
   }
  .top-banner{
     background-image:url("images/header-bg.png"); 
@@ -40,14 +45,53 @@
    background-position: center;
  }
 
- .images{
-  width: 30%;
-  float: left;
+ 
 
+ 
+
+ section{
+     margin-top: 100px;
+    
  }
-
  .btn{
-    background-color:rgb(255, 0, 200); 
-    padding: 20px 30px;
+   background-color: rgb(233, 33, 33);
+   padding: 15px 50px ;
+   color: #fff;
+ } 
+.last{
+
+  position: absolute;
+
+  margin-left: 50%;
+
+
+}
+
+.new-width{
+    width: 100%;
+    float: left;
+    height: 50%;
+    
+}
+.new-width img{
+    width: 20%;
+    height: 50%;
+}    
+
+.new-width-2{
+    width: 100%;
+    float:right;
    
+   
+}
+.heading{
+text-align: center;
+
+}
+ .footer-cls{
+ background-image: url(images/footer-bg.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-bottom: 30px;
+ 
  }
