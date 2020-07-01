@@ -1,0 +1,53 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    #color{
+        color:rgb(255, 0, 200);
+        font-weight: bold;
+        font-size: 40px;
+    }
+   .btn-cls{
+    text-decoration: none;
+    background-color:rgb(255, 0, 200);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+  
+
+   }
+
+    .half-width{
+
+        width: 40%;
+        float: left;
+    }
+  .half-width img{
+      width: 40%;
+  }
+ .top-banner{
+    background-image:url("images/header-bg.png"); 
+    background-repeat: no-repeat;
+    background-size: auto;
+ }
+
+
+ .header{
+   background-image: url("images/header-bg.png");  
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ .images{
+  width: 30%;
+  float: left;
+
+ }
+
+ .btn{
+    background-color:rgb(255, 0, 200); 
+    padding: 20px 30px;
+   
+ }
